@@ -20,7 +20,10 @@ animationEndScript = -1;
 //spriteRoll = sPlayerRoll;
 spriteRun = sPlayer;
 spriteIdle = sPlayer;
+spriteLongIdle = sPlayerEternue;
 localFrame = 0;
+start_timer = true;
+timer = -1;
 
 if (global.targetX != -1) {
 

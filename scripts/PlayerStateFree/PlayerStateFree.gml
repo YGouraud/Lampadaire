@@ -7,15 +7,29 @@ function PlayerStateFree(){
 	PlayerCollision();
 
 	//Update Sprite Index
-	
 	var _oldSprite = sprite_index;
 	
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
 		sprite_index = spriteRun;
-	} else sprite_index = spriteIdle;
+		
+		start_timer = true;
+	} else {
+		
+		if (start_timer == true) {timer = FRAME_RATE * 5; start_timer = false;}
 
+		if (timer > 0) {timer--;}
+
+		if (timer == 0)
+		{
+			PlayerActOutAnimation(sPlayerEternue);
+			timer = -1;
+		} else {
+			sprite_index = spriteIdle;
+		}
+	}
+		
 	if (_oldSprite != sprite_index) localFrame = 0;
 
 	//Update Sprite Index
