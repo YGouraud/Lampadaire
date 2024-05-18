@@ -7,7 +7,7 @@ collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
 image_speed = 0;
 hSpeed = 0;
 vSpeed = 0;
-speedWalk = 2.0;
+speedWalk = 6.0;
 speedRoll = 3.0;
 distanceRoll = 72;
 distanceBonk = 40;
@@ -18,8 +18,8 @@ z = 0;
 animationEndScript = -1;
 
 //spriteRoll = sPlayerRoll;
-//spriteRun = sPlayerRun;
-//spriteIdle = sPlayer;
+spriteRun = sPlayer;
+spriteIdle = sPlayer;
 localFrame = 0;
 
 if (global.targetX != -1) {

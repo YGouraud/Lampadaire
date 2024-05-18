@@ -4,12 +4,12 @@ function PlayerStateFree(){
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-	//PlayerCollision();
+	PlayerCollision();
 
 	//Update Sprite Index
 	
 	var _oldSprite = sprite_index;
-	/*
+	
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
@@ -21,8 +21,7 @@ function PlayerStateFree(){
 	//Update Sprite Index
 	PlayerAnimateSprite();
 	
-	
-	
+	/*
 	//Attack key logic
 	if(keyAttack)
 	{
