@@ -4,10 +4,12 @@ function PlayerStateFree(){
 	hSpeed = lengthdir_x(inputMagnitude * speedWalk, inputDirection);
 	vSpeed = lengthdir_y(inputMagnitude * speedWalk, inputDirection);
 
-	PlayerCollision();
+	//PlayerCollision();
 
 	//Update Sprite Index
+	
 	var _oldSprite = sprite_index;
+	/*
 	if (inputMagnitude != 0)
 	{
 		direction = inputDirection;
@@ -20,12 +22,14 @@ function PlayerStateFree(){
 	PlayerAnimateSprite();
 	
 	
+	
 	//Attack key logic
 	if(keyAttack)
 	{
 		state = PlayerStateAttack;
 		stateAttack = AttackSlash;
 	}
+	*/
 	
 	//Activate key logic
 	if(keyActivate)
@@ -41,7 +45,7 @@ function PlayerStateFree(){
 		
 		if (activate == noone || activate.entityActivateScript == -1)
 		{
-			state = PlayerStateRoll;
+			//state = PlayerStateRoll;
 			moveDistanceRemaining = distanceRoll;
 		}
 		else

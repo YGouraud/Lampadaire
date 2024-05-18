@@ -63,6 +63,7 @@
     {"id":{"name":"PlayerStateTransition","path":"scripts/PlayerStateTransition/PlayerStateTransition.yy",},},
     {"id":{"name":"RoomTransition","path":"scripts/RoomTransition/RoomTransition.yy",},},
     {"id":{"name":"sCol","path":"sprites/sCol/sCol.yy",},},
+    {"id":{"name":"sPlayer","path":"sprites/sPlayer/sPlayer.yy",},},
     {"id":{"name":"sTrigger","path":"sprites/sTrigger/sTrigger.yy",},},
     {"id":{"name":"tCol","path":"tilesets/tCol/tCol.yy",},},
   ],

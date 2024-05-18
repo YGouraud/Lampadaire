@@ -1,6 +1,6 @@
 /// @description Draw the sprite taking into account the Z-axis
 
-draw_sprite(sShadow,0,floor(x),floor(y));
+//draw_sprite(sShadow,0,floor(x),floor(y));
 
 draw_sprite_ext(
 	sprite_index,

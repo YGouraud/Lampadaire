@@ -1,5 +1,5 @@
 state = PlayerStateFree;
-stateAttack = AttackSlash; //For different types of attack
+//stateAttack = AttackSlash; //For different types of attack
 hitByAttack = -1;
 lastState = state;
 collisionMap = layer_tilemap_get_id(layer_get_id("Col"));
@@ -17,9 +17,9 @@ z = 0;
 
 animationEndScript = -1;
 
-spriteRoll = sPlayerRoll;
-spriteRun = sPlayerRun;
-spriteIdle = sPlayer;
+//spriteRoll = sPlayerRoll;
+//spriteRun = sPlayerRun;
+//spriteIdle = sPlayer;
 localFrame = 0;
 
 if (global.targetX != -1) {
