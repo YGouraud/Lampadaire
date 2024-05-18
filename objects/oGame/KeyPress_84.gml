@@ -1,3 +1,3 @@
 /// @description For testing message
-NewTextBox("This is a test message");
+NewTextBox("oooooaaaaaoooooaaaaaoooooaaaaaoooooaaaaaoooooaaaaaooooo\noooooaaaaaoooooaaaaaoooooaaaaaoooooaaaaaoooooaaaaaooooo");
 NewTextBox("This is also test message !\nYeah !");
