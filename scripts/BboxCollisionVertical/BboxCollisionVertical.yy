@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"BboxCollisionVertical",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"BboxCollisionVertical",
+  "parent":{
+    "name":"Collision",
+    "path":"folders/Scripts/Collision.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

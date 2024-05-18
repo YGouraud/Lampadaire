@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"EntityCollisionHorizontal",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EntityCollisionHorizontal",
+  "parent":{
+    "name":"Collision",
+    "path":"folders/Scripts/Collision.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
