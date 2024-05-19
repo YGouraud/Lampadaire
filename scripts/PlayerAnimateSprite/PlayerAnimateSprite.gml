@@ -1,6 +1,10 @@
-function PlayerAnimateSprite(){
+function PlayerAnimateSprite(_boolean = false){
 
-	var _totalFrames = sprite_get_number(sprite_index)/4;
+	if (_boolean == true) {	
+		var _totalFrames = sprite_get_number(sprite_index);
+	} else {
+		var _totalFrames = sprite_get_number(sprite_index)/4;
+	}
 	image_index = localFrame + (CARDINAL_DIR * _totalFrames);
 	localFrame += sprite_get_speed(sprite_index) / FRAME_RATE;
 	
