@@ -23,6 +23,7 @@ function NullosWander(){
 			yTo = y = lengthdir_y(enemyWanderDistance, dir);
 		}
 		
+		}
 	}
 	else //BOUGE VERS NOUVELLE DESTINATION
 	{
@@ -37,6 +38,6 @@ function NullosWander(){
 		if (hSpeed != 0) image_xscale = sign(hSpeed);
 	
 	//COLLISION ET MOUVEMENT 
-	EnemyTileCollision();
+	var _collided = EnemyTileCollision();
 	}
 }

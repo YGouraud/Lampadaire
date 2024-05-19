@@ -8,7 +8,7 @@ xTo = xstart;
 yTo = ystart;
 
 timePassed = 0;
-waitDuration = 0;
+waitDuration = 180;
 wait = 0;
 
 //SPRITES ENNEMIS
