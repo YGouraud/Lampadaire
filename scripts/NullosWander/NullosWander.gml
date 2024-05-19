@@ -19,8 +19,8 @@ function NullosWander(){
 			wait = 0;
 			timePassed = 0;
 			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45,45);
-			xTo = x = lengthdir_x(enemyWanderDistance, dir);
-			yTo = y = lengthdir_y(enemyWanderDistance, dir);
+			xTo = x + lengthdir_x(enemyWanderDistance, dir);
+			yTo = y + lengthdir_y(enemyWanderDistance, dir);
 		}
 		
 	}
@@ -39,4 +39,28 @@ function NullosWander(){
 	//COLLISION ET MOUVEMENT 
 	var _collided = EnemyTileCollision();
 	}
+
+
+
+
+
+
+
+//CHECK FOR AGGRO
+if(++aggroCheck >= aggroCheckDuration)
+{
+	aggroCheck = 0;
+	if (instance_exists(oPlayer)) && (point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAggroRadius)
+	{
+		state = ENEMYSTATE.CHASE;
+		target = oPlayer;
+	}
+
+}
+
+
+
+
+
+
 }

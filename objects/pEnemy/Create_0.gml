@@ -6,9 +6,14 @@ hSpeed = 0;
 vSpeed = 0;
 xTo = xstart;
 yTo = ystart;
+dir = 0
+aggroCheck = 0;
+aggroCheckDuration = 5; 
 
+
+//STATS ENNEMI
 timePassed = 0;
-waitDuration = 180;
+waitDuration = 60;
 wait = 0;
 
 //SPRITES ENNEMIS

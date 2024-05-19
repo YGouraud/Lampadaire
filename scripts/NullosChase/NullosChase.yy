@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"NullosChase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"NullosChase",
+  "parent":{
+    "name":"Enemies",
+    "path":"folders/Scripts/Enemies.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
