@@ -53,14 +53,14 @@ function PlayerStateFree(){
 		// 3. Otherwise, activate the script
 		// 4. If it's an NPC, make it face forward
 		
-		var _activateX = lengthdir_x(12, direction);
-		var _activateY = lengthdir_y(12, direction);
-		activate = instance_position(x+_activateX, y-4+_activateY, pEntity);
+		var _activateX = lengthdir_x(150, direction);
+		var _activateY = lengthdir_y(105, direction);
+		activate = instance_position(x +_activateX, y - 70 +_activateY, pEntity);
 		
 		if (activate == noone || activate.entityActivateScript == -1)
 		{
 			//state = PlayerStateRoll;
-			moveDistanceRemaining = distanceRoll;
+			//moveDistanceRemaining = distanceRoll;
 		}
 		else
 		{
@@ -73,7 +73,9 @@ function PlayerStateFree(){
 				with (activate)
 				{
 					direction = point_direction(x,y,other.x,other.y);
+					show_debug_message(direction)
 					image_index = CARDINAL_DIR;
+					show_debug_message(image_index)
 				}
 			}
 		}
