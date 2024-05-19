@@ -10,5 +10,5 @@ function PlayerActOutAnimation(sprite, endScript = -1){
 	animationEndScript = endScript;
 	localFrame = 0;
 	image_index = 0;
-	PlayerAnimateSprite();
+	PlayerAnimateSprite(anim_eternue);
 }

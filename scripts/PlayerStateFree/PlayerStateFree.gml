@@ -14,7 +14,7 @@ function PlayerStateFree(){
 		direction = inputDirection;
 		sprite_index = spriteRun;
 		
-		start_timer = true;
+		start_timer = true
 	} else {
 		
 		if (start_timer == true) {timer = FRAME_RATE * 5; start_timer = false;}
@@ -23,6 +23,7 @@ function PlayerStateFree(){
 
 		if (timer == 0)
 		{
+			anim_eternue = true;
 			PlayerActOutAnimation(sPlayerEternue);
 			timer = -1;
 		} else {
