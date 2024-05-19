@@ -1,7 +1,4 @@
-/// @description Insérez la description ici
-// Vous pouvez écrire votre code dans cet éditeur
-
-if (entityShadow) draw_sprite(sShadow,0,floor(x),floor(y));
+/////if (entityShadow) draw_sprite(sShadow,0,floor(x),floor(y));
 
 //Fonction shader_set demande beaucoup de ressource donc mieux vaut ne pas l'appeler
 //à chaque frame si c'est pas utile
