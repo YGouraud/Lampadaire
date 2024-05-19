@@ -14,7 +14,7 @@ function NullosWander(){
 		}
 	
 		//PREPARE UNE NOUVELLE DESTINATION
-		if (++wait >= WaitDuration)
+		if (++wait >= waitDuration)
 		{
 			wait = 0;
 			timePassed = 0;
@@ -23,7 +23,6 @@ function NullosWander(){
 			yTo = y = lengthdir_y(enemyWanderDistance, dir);
 		}
 		
-		}
 	}
 	else //BOUGE VERS NOUVELLE DESTINATION
 	{

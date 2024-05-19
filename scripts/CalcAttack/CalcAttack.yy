@@ -1,12 +1,12 @@
 {
   "$GMScript":"",
-  "%Name":"NPCStateFree",
+  "%Name":"CalcAttack",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"NPCStateFree",
+  "name":"CalcAttack",
   "parent":{
-    "name":"NPC StateMachine",
-    "path":"folders/Scripts/NPC StateMachine.yy",
+    "name":"Player Attacks",
+    "path":"folders/Scripts/Player Attacks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
