@@ -12,18 +12,18 @@ function NullosWander(){
 			image_speed = 0.0;
 			image_index = 0;
 		}
-	}
 	
 	
-	//PREPARE UNE NOUVELLE DESTINATION
-	if (++wait >= WaitDuration)
-	{
-		wait = 0;
-		timePassed = 0;
-		dir = point_direction(x,y,xstart,ystart) + irandom_range(-45,45);
-		xTo = x = lengthdir_x(enemyWanderDistance, dir);
-		yTo = y = lengthdir_y(enemyWanderDistance, dir);
+		//PREVOIT UNE NOUVELLE DESTINATION
+		if (++wait >= waitDuration)
+		{
+			wait = 0;
+			timePassed = 0;
+			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45,45);
+			xTo = x + lengthdir_x(enemyWanderDistance, dir);
+			yTo = y + lengthdir_y(enemyWanderDistance, dir);
 		
+		}
 	}
 	else //BOUGE VERS NOUVELLE DESTINATION
 	{
@@ -38,6 +38,6 @@ function NullosWander(){
 		if (hSpeed != 0) image_xscale = sign(hSpeed);
 	
 	//COLLISION ET MOUVEMENT 
-	EnemyTileCollision();
+	var _collided = EnemyTileCollision();
 	}
 }

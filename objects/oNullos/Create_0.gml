@@ -6,4 +6,4 @@ state = ENEMYSTATE.WANDER;
 sprMove = sNullos;
 
 //ENEMY SCRIPTS
-////enemyScript[ENEMYSTATE.WANDER] = NullosWander;
+enemyScript[ENEMYSTATE.WANDER] = NullosWander;
