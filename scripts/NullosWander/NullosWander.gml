@@ -14,16 +14,15 @@ function NullosWander(){
 		}
 	
 		//PREPARE UNE NOUVELLE DESTINATION
-		if (++wait >= WaitDuration)
+		if (++wait >= waitDuration)
 		{
 			wait = 0;
 			timePassed = 0;
 			dir = point_direction(x,y,xstart,ystart) + irandom_range(-45,45);
-			xTo = x = lengthdir_x(enemyWanderDistance, dir);
-			yTo = y = lengthdir_y(enemyWanderDistance, dir);
+			xTo = x + lengthdir_x(enemyWanderDistance, dir);
+			yTo = y + lengthdir_y(enemyWanderDistance, dir);
 		}
 		
-		}
 	}
 	else //BOUGE VERS NOUVELLE DESTINATION
 	{
