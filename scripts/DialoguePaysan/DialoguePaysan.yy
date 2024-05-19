@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"DialoguePaysan",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DialoguePaysan",
+  "parent":{
+    "name":"Dialogues",
+    "path":"folders/Scripts/Dialogues.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
