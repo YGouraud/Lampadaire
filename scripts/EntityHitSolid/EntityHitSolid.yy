@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"EntityHitSolid",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EntityHitSolid",
+  "parent":{
+    "name":"EntityHit",
+    "path":"folders/Scripts/EntityHit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
