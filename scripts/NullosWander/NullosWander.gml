@@ -40,4 +40,28 @@ function NullosWander(){
 	//COLLISION ET MOUVEMENT 
 	var _collided = EnemyTileCollision();
 	}
+
+
+
+
+
+
+
+//CHECK FOR AGGRO
+if(++aggroCheck >= aggroCheckDuration)
+{
+	aggroCheck = 0;
+	if (instance_exists(oPlayer)) && (point_distance(x,y,oPlayer.x,oPlayer.y) <= enemyAggroRadius)
+	{
+		state = ENEMYSTATE.CHASE;
+		target = oPlayer;
+	}
+
+}
+
+
+
+
+
+
 }
