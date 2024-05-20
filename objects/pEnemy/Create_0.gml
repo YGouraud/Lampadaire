@@ -9,6 +9,10 @@ yTo = ystart;
 dir = 0
 aggroCheck = 0;
 aggroCheckDuration = 5; 
+stateTarget = state; 
+statePrevious = state;
+stateWait = 0
+stateWaitDuration = 0
 
 
 //STATS ENNEMI
@@ -17,7 +21,7 @@ waitDuration = 60;
 wait = 0;
 
 //SPRITES ENNEMIS
-sprMove = sNullos;
+sprMove = sSlime;
 
 
 //ENEMY SCRIPT
@@ -27,4 +31,4 @@ enemyScript[ENEMYSTATE.CHASE] = -1;
 enemyScript[ENEMYSTATE.ATTACK] = -1;
 enemyScript[ENEMYSTATE.HURT] = -1;
 enemyScript[ENEMYSTATE.DIE] = -1;
-enemyScript[ENEMYSTATE.WAIT] = -1;
+enemyScript[ENEMYSTATE.WAIT] = EnemyWait;
