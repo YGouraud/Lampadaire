@@ -1,19 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oPaysan",
-  "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oFlan02",
+  "eventList":[],
   "managed":true,
-  "name":"oPaysan",
+  "name":"oFlan02",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityCollision","path":"objects/pEntity/pEntity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"pEntity","path":"objects/pEntity/pEntity.yy",},"propertyId":{"name":"entityNPC","path":"objects/pEntity/pEntity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
-    "name":"PNJ",
-    "path":"folders/Objets/Entitiy/PNJ.yy",
+    "name":"Flan",
+    "path":"folders/Objets/Entitiy/PNJ/Flan.yy",
   },
   "parentObjectId":{
     "name":"pEntity",
@@ -37,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPaysan",
-    "path":"sprites/sPaysan/sPaysan.yy",
+    "name":"sFlan02",
+    "path":"sprites/sFlan02/sFlan02.yy",
   },
   "spriteMaskId":null,
   "visible":true,

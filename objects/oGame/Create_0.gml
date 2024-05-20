@@ -1,4 +1,4 @@
-/// @desc Initialise & Globals
+ /// @desc Initialise & Globals
 randomize();
 
 global.gamePaused = false;

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"DialogueFlan08",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"DialogueFlan08",
+  "parent":{
+    "name":"FlanPNJ",
+    "path":"folders/Scripts/Dialogues/FlanPNJ.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
