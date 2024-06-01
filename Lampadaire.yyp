@@ -73,6 +73,7 @@
     {"id":{"name":"EntityCollisionVertical","path":"scripts/EntityCollisionVertical/EntityCollisionVertical.yy",},},
     {"id":{"name":"EntityHitSolid","path":"scripts/EntityHitSolid/EntityHitSolid.yy",},},
     {"id":{"name":"MACROS","path":"scripts/MACROS/MACROS.yy",},},
+    {"id":{"name":"NewRun","path":"scripts/NewRun/NewRun.yy",},},
     {"id":{"name":"NewTextBox","path":"scripts/NewTextBox/NewTextBox.yy",},},
     {"id":{"name":"NPCAnimateSprite","path":"scripts/NPCAnimateSprite/NPCAnimateSprite.yy",},},
     {"id":{"name":"PlayerActOutAnimation","path":"scripts/PlayerActOutAnimation/PlayerActOutAnimation.yy",},},
